@@ -93,8 +93,6 @@ function draw() {
   
   //animazione nuvole
   nuvolasinx = frameCount % width
-  fill(255)
-    text(`mouseX: ${mouseX}, mouseY: ${mouseY}`, 20, 20);
   
   //animazione mongolfiera
    balloonx = (width + 50) - (frameCount % (width + 100));
